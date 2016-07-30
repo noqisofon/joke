@@ -1,14 +1,17 @@
 {
-  "name": "joke",
-  "version": "0.1.0",
-  "description": "build tool",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "MIT",
-  "dependencies": {
-    "minimist": "^1.2.0"
-  }
+    "name": "joke",
+    "author": "",
+    "version": "0.1.0",
+    "description": "build tool",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "bin": {
+        "joke": "./bin/joke.js"
+    },
+    "license": "MIT",
+    "dependencies": {
+        "minimist": "^1.2.0"
+    }
 }
